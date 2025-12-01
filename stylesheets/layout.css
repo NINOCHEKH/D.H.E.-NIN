@@ -18,3 +18,26 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* секции первый уровень */
+#section-1 {
+  width: 22.4vw;
+  height: 84vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+}
+.left {
+  display: flex;
+  width: 7.5vw;
+  height: 84vw;
+  position: relative;
+}
+
+.right {
+  display: flex;
+  width: 7.5vw;
+  height: 84vw;
+  position: relative;
+}
