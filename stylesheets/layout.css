@@ -25,11 +25,12 @@
   height: 84vw;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   background-color: black;
 }
 .left {
   display: flex;
+  padding-left: 2vw;
   width: 7.5vw;
   height: 84vw;
   position: relative;
@@ -37,7 +38,7 @@
 
 .right {
   display: flex;
-  width: 7.5vw;
-  height: 84vw;
+  width: 7vw;
+  height: 7vw;
   position: relative;
 }
