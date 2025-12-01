@@ -1,0 +1,20 @@
+.bold {
+  font-family: "TTLakesNeueEduBold";
+  font-size: 50px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.medium {
+  font-family: "TTLakesNeueEduMedium";
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.regular {
+  font-family: "TTLakesNeueEduRegular";
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+}
