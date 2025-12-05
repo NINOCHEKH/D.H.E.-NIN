@@ -26,6 +26,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: black;
 }
 .left {
   display: flex;
@@ -40,27 +41,35 @@
   flex-direction: column;
   align-items: flex-end;
   padding-left: 2vw;
+  padding-right: 1.25vw;
   width: 100%;
 }
 
 .right1,
-.right2 {
+.right2,
+.right3 {
   width: 7vw;
   height: 7vw;
 }
 
 .right1 {
-  animation: moveRight1 3s linear infinite alternate,
-    rotateRight1 3s linear infinite alternate;
+  animation: moveRight1 6s linear infinite alternate,
+    rotateRight1 6s linear infinite alternate;
 }
 
 .right2 {
-  animation: moveRight2 1.7s linear infinite alternate,
-    rotateRight2 1.7s linear infinite alternate;
+  animation: moveRight2 3s linear infinite alternate,
+    rotateRight2 3s linear infinite alternate;
+}
+
+.right3 {
+  animation: moveRight3 2s linear infinite alternate,
+    rotateRight3 2s linear infinite alternate;
 }
 
 .right1 img,
-.right2 img {
+.right2 img,
+.right3 img {
   width: 100%;
   height: 100%;
 }
