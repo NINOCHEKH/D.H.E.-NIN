@@ -1,0 +1,36 @@
+/* фигуры туда сюда на 1 фрейме */
+@keyframes moveRight1 {
+  0% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, 800px);
+  }
+}
+
+@keyframes moveRight2 {
+  0% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, 900px);
+  }
+}
+
+@keyframes rotateRight1 {
+  0% {
+    transform: translateY(160px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(800px) rotate(300deg);
+  }
+}
+
+@keyframes rotateRight2 {
+  0% {
+    transform: translateY(160px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(800px) rotate(300deg);
+  }
+}
